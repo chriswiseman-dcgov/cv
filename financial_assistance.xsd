@@ -227,7 +227,7 @@
 	</xs:complexType>
 	<xs:complexType name="AssistanceTaxHouseholdMemberListType">
 		<xs:sequence>
-			<xs:element name="assistance_tax_household_member" type="FinancialAssistanceApplicantType"/>
+			<xs:element name="assistance_tax_household_member" type="FinancialAssistanceApplicantType" maxOccurs="unbounded"/>
 		</xs:sequence>
 	</xs:complexType>
 	<xs:complexType name="AssistedTaxHouseholdIncomesByYearType">
